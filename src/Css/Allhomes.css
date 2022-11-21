@@ -1,0 +1,62 @@
+
+.houselist * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.houselist {
+    max-width: 25rem;
+    /* margin: 5rem auto; */
+    margin:auto;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 6px #111;
+    font-family: 'Times New Roman';
+    position: relative;
+    right: 250px;
+}
+
+.houselist {
+    overflow: scroll;
+    width: 600px;
+    height: 500px;
+}
+
+.housebox {
+    background-color: rgb(81, 188, 205);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    border: 3px solid rgb(94, 159, 169);
+}
+
+.houselisttitle {
+    color: (134, 54, 200);
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    position: relative;
+    right: 250px;
+}
+
+.addhome {
+    top: -400px;
+    position: relative;
+    right: -250px;
+    max-width: 25rem;
+    /* margin: 5rem auto; */
+    margin:auto;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 6px #111;
+    background-color: rgb(81, 188, 205);
+}
+
+.itemquantity {
+    top: -350px;
+    position: relative;
+    right: -250px;
+    max-width: 25rem;
+    /* margin: 5rem auto; */
+    margin:auto;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 6px #111;
+    background-color: rgb(81, 188, 205);
+}
